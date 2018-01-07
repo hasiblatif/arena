@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Debugging Tools for Windows (x86)\cdb.exe" -c ".load pykd;!py c:\users\root\Desktop\arena\arena.py %1" %1
