@@ -5,8 +5,8 @@ An automated reverse engineering system which leverages WinDbg (Windows Debugger
 ## Installation:
 
 ### Pre-Requisites:
-  1. [WinDbg] [http://download.microsoft.com/download/A/6/A/A6AC035D-DA3F-4F0C-ADA4-37C8E5D34E3D/setup/WinSDKDebuggingTools/dbg_x86.msi]
-  2. [Pykd] [https://pykd.codeplex.com/downloads/get/1585322]
+  1. WinDbg http://download.microsoft.com/download/A/6/A/A6AC035D-DA3F-4F0C-ADA4-37C8E5D34E3D/setup/WinSDKDebuggingTools/dbg_x86.msi
+  2. Pykd https://pykd.codeplex.com/downloads/get/1585322
   3. pefile (pip install pefile)
   
  #### Supported Platform: 
