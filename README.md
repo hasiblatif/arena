@@ -1,4 +1,4 @@
-# ARENA (Automated Reverse EngiNeering and Analysis System)
+## ARENA (Automated Reverse EngiNeering and Analysis System)
 
 An automated reverse engineering system which leverages WinDbg (Windows Debugger) and Pykd (python based debugger). It reports the called APIs with parameters into JSON formatted log, hence very useful for automation. It also bypasses most popular anti-debugging / anti-reversing tricks as well.
 
