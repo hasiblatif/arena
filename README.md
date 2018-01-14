@@ -15,6 +15,9 @@ An automated reverse engineering system which leverages WinDbg (Windows Debugger
  ### Usage:
     arena.bat <file_name.exe>
     
+    (Please update the path in arena.bat)
+    
+    
     
  ### Output:
     A json formatted log file containing APIs parameters will be generated in
