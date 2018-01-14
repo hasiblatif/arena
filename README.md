@@ -13,17 +13,20 @@ An automated reverse engineering system which leverages WinDbg (Windows Debugger
       Windows, 32 bit only (tested on Windows 7 x86_64). Some tweaks are needed to enable for 64 bit binaries.
   
  ### Usage:
-    `arena.bat <file_name.exe>`
+    arena.bat <file_name.exe>
     
     
  ### Output:
-    A json formatted log file containing APIs parameters will be generated in <root dir>results/<md5 of file>_log.json
+    A json formatted log file containing APIs parameters will be generated in
+    <root dir>results/<md5 of file>_log.json
     
 
 #### Which APIs are Hooked?
-    It's entirely upto you. The APIs you want to hook should be put in **_apis_list.txt_** (line separated). APIs which you want to explicitly exclude can be optionally put into white_listed_apis.txt if you hook the IAT table as well but current implementation does bot need that as it ignores IAT.
+    It's entirely upto you. The APIs you want to hook should be put in __apis_list.txt__ (line separated). 
+    APIs which you want to explicitly exclude can be optionally put into white_listed_apis.txt 
+    if you hook the IAT table as well but current implementation does bot need that as it ignores IAT.
     
-Note: APIs will be reported only when they are called from hooked executable's code
+    Note: APIs will be reported only when they are called from hooked executable's code
     
 #### What about Anti-Debugging Tricks?
     More than fifteen ant-debugging / anti-reversing tricks have been bypassed :)    
