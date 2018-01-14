@@ -22,7 +22,7 @@ An automated reverse engineering system which leverages WinDbg (Windows Debugger
     
 
 #### Which APIs are Hooked?
-    It's entirely upto you. The APIs you want to hook should be put in __apis_list.txt__ (line separated). 
+    It's entirely upto you. The APIs you want to hook should be put in "apis_list.txt" (line separated). 
     APIs which you want to explicitly exclude can be optionally put into white_listed_apis.txt 
     if you hook the IAT table as well but current implementation does bot need that as it ignores IAT.
     
